@@ -11,7 +11,7 @@ class Settings(BaseSettings):
     ACCESS_TOKEN_EXPIRE_MINUTES: int = 30
     
     # CORS - use Field to handle string from .env
-    BACKEND_CORS_ORIGINS: str = "http://localhost:3000,http://localhost:8000"
+  BACKEND_CORS_ORIGINS: str = "http://localhost:3000,http://localhost:8000,https://neggle.com,https://www.neggle.com,https://be.neggle.com"
 
     # Database
     POSTGRES_SERVER: str = "db"
